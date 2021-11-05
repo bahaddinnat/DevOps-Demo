@@ -58,7 +58,7 @@
     </target>
               	
               	<target depends="build" name="package" description="Packagign all files into ${project.war}">
-              			<war destfile="${project.war}" index="true" needxmlfile="fasle">
+              			<war destfile="build/${project.war}" index="true" needxmlfile="fasle">
               				<classes dir="build/classes" />
               				
               				<fileset dir="${project.web.dir}">
