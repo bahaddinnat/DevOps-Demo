@@ -7,6 +7,7 @@
 <title>Hello World</title>
 </head>
 <body>
+<img alt="" src="logo.png">
 <h1>DevOps Demo WebApp</h1>
 <hr>
 <h3 style="color:DodgerBlue;">Current Timestamp is : <%= (new java.util.Date()).toLocaleString()%></h3>
