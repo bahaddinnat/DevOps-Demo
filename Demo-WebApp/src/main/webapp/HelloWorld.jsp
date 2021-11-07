@@ -11,6 +11,6 @@
 <h1>DevOps Demo WebApp</h1>
 <hr>
 <h3 style="color:DodgerBlue;">Current Timestamp is : <%= (new java.util.Date()).toLocaleString()%></h3>
-<h4>sponsered by BOB</h4>
+<h4>sponsered by Jboor</h4>
 </body>
 </html>
